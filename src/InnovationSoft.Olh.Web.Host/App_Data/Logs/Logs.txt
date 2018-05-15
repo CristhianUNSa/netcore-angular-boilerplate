@@ -1,0 +1,850 @@
+DEBUG 2018-05-15 16:15:10,826 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-15 16:15:10,855 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-15 16:15:10,921 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.Web.Host.Startup.OlhWebHostModule, InnovationSoft.Olh.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhWebCoreModule, InnovationSoft.Olh.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhApplicationModule, InnovationSoft.Olh.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhCoreModule, InnovationSoft.Olh.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule, InnovationSoft.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,942 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:10,950 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-15 16:15:11,080 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:15:11,081 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:15:11,081 [1    ] o.Configuration.LanguageManagementConfig - Converted Olh (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:15:11,082 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:15:11,669 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: InnovationSoft.Olh.EntityFrameworkCore.OlhDbContext, InnovationSoft.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:15:12,312 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-15 16:15:12,466 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-15 16:15:12,679 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-15 16:15:12,778 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Olh
+DEBUG 2018-05-15 16:15:12,923 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-15 16:15:12,964 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-15 16:15:13,023 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-15 16:15:13,024 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-15 16:15:13,031 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Users.Dto.CreateUserDto
+DEBUG 2018-05-15 16:15:13,033 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Users.Dto.UserDto
+DEBUG 2018-05-15 16:15:13,034 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-15 16:15:13,035 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-15 16:15:13,036 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-15 16:15:13,037 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.PermissionDto
+DEBUG 2018-05-15 16:15:13,037 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.RoleDto
+DEBUG 2018-05-15 16:15:13,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-15 16:15:13,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.MultiTenancy.Dto.TenantDto
+FATAL 2018-05-15 16:15:28,758 [1    ] Abp.AbpBootstrapper                      - System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 39
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 17
+   at InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule.PostInitialize() in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/OlhEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 39
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 17
+   at InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule.PostInitialize() in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/OlhEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+WARN  2018-05-15 16:15:28,761 [4    ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+FATAL 2018-05-15 16:15:28,809 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 40 - Could not open a connection to SQL Server)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 39
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 17
+   at InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule.PostInitialize() in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/OlhEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 160
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at InnovationSoft.Olh.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.Web.Host/Startup/Startup.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+DEBUG 2018-05-15 16:42:09,719 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-15 16:42:09,757 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-15 16:42:09,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.Web.Host.Startup.OlhWebHostModule, InnovationSoft.Olh.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhWebCoreModule, InnovationSoft.Olh.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhApplicationModule, InnovationSoft.Olh.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhCoreModule, InnovationSoft.Olh.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,834 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule, InnovationSoft.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,844 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,847 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:09,852 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-15 16:42:10,044 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:42:10,045 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:42:10,046 [1    ] o.Configuration.LanguageManagementConfig - Converted Olh (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:42:10,047 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:42:10,641 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: InnovationSoft.Olh.EntityFrameworkCore.OlhDbContext, InnovationSoft.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:42:11,476 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-15 16:42:11,633 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-15 16:42:11,858 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-15 16:42:11,965 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Olh
+DEBUG 2018-05-15 16:42:12,114 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-15 16:42:12,156 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-15 16:42:12,223 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-15 16:42:12,224 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-15 16:42:12,232 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Users.Dto.CreateUserDto
+DEBUG 2018-05-15 16:42:12,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Users.Dto.UserDto
+DEBUG 2018-05-15 16:42:12,234 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-15 16:42:12,235 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-15 16:42:12,236 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-15 16:42:12,237 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.PermissionDto
+DEBUG 2018-05-15 16:42:12,237 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.RoleDto
+DEBUG 2018-05-15 16:42:12,238 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-15 16:42:12,239 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.MultiTenancy.Dto.TenantDto
+FATAL 2018-05-15 16:42:13,442 [1    ] Abp.AbpBootstrapper                      - System.ArgumentException: Keyword not supported: trusted_connection
+Parameter name: keyword
+   at Npgsql.NpgsqlConnectionStringBuilder.GetProperty(String keyword)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection.GetPoolAndSettings()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NpgsqlRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 39
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 17
+   at InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule.PostInitialize() in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/OlhEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+System.ArgumentException: Keyword not supported: trusted_connection
+Parameter name: keyword
+   at Npgsql.NpgsqlConnectionStringBuilder.GetProperty(String keyword)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection.GetPoolAndSettings()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NpgsqlRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 39
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 17
+   at InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule.PostInitialize() in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/OlhEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+FATAL 2018-05-15 16:42:13,471 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.ArgumentException: Keyword not supported: trusted_connection
+Parameter name: keyword
+   at Npgsql.NpgsqlConnectionStringBuilder.GetProperty(String keyword)
+   at Npgsql.NpgsqlConnectionStringBuilder.set_Item(String keyword, Object value)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection.GetPoolAndSettings()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NpgsqlRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Internal.LazyRef`1.get_Value()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 39
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 17
+   at InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule.PostInitialize() in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/OlhEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 160
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at InnovationSoft.Olh.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.Web.Host/Startup/Startup.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+DEBUG 2018-05-15 16:44:42,889 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-15 16:44:42,925 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-15 16:44:42,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.Web.Host.Startup.OlhWebHostModule, InnovationSoft.Olh.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:42,987 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhWebCoreModule, InnovationSoft.Olh.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:42,988 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhApplicationModule, InnovationSoft.Olh.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:42,989 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhCoreModule, InnovationSoft.Olh.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:42,990 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:42,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:42,994 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:42,995 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:42,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule, InnovationSoft.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:42,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:42,999 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:43,001 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:43,002 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:43,004 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:43,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:43,010 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-15 16:44:43,125 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:44:43,126 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:44:43,127 [1    ] o.Configuration.LanguageManagementConfig - Converted Olh (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:44:43,128 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:44:43,684 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: InnovationSoft.Olh.EntityFrameworkCore.OlhDbContext, InnovationSoft.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:44:44,280 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-15 16:44:44,430 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-15 16:44:44,643 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-15 16:44:44,741 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Olh
+DEBUG 2018-05-15 16:44:44,882 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-15 16:44:44,922 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-15 16:44:44,975 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-15 16:44:44,976 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-15 16:44:44,982 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Users.Dto.CreateUserDto
+DEBUG 2018-05-15 16:44:44,984 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Users.Dto.UserDto
+DEBUG 2018-05-15 16:44:44,985 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-15 16:44:44,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-15 16:44:44,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-15 16:44:44,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.PermissionDto
+DEBUG 2018-05-15 16:44:44,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.RoleDto
+DEBUG 2018-05-15 16:44:44,987 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-15 16:44:44,988 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.MultiTenancy.Dto.TenantDto
+FATAL 2018-05-15 16:44:46,192 [1    ] Abp.AbpBootstrapper                      - Npgsql.PostgresException (0x80004005): 3D000: database "OlhDb" does not exist
+   at Npgsql.NpgsqlConnector.<DoReadMessage>d__148.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<Open>d__136.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.ConnectorPool.<AllocateLong>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnection.<Open>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 39
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 17
+   at InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule.PostInitialize() in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/OlhEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+Npgsql.PostgresException (0x80004005): 3D000: database "OlhDb" does not exist
+   at Npgsql.NpgsqlConnector.<DoReadMessage>d__148.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<Open>d__136.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.ConnectorPool.<AllocateLong>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnection.<Open>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 39
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 17
+   at InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule.PostInitialize() in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/OlhEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+FATAL 2018-05-15 16:44:46,229 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+Npgsql.PostgresException (0x80004005): 3D000: database "OlhDb" does not exist
+   at Npgsql.NpgsqlConnector.<DoReadMessage>d__148.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlConnector.<ReadMessage>d__147.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnector.<Open>d__136.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.ConnectorPool.<AllocateLong>d__24.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at System.Runtime.CompilerServices.ValueTaskAwaiter`1.GetResult()
+   at Npgsql.NpgsqlConnection.<Open>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 39
+   at InnovationSoft.Olh.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/Seed/SeedHelper.cs:line 17
+   at InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule.PostInitialize() in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.EntityFrameworkCore/EntityFrameworkCore/OlhEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 160
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at InnovationSoft.Olh.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in /home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.Web.Host/Startup/Startup.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+DEBUG 2018-05-15 16:50:11,664 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-15 16:50:11,697 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-15 16:50:11,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.Web.Host.Startup.OlhWebHostModule, InnovationSoft.Olh.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,765 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhWebCoreModule, InnovationSoft.Olh.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,766 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhApplicationModule, InnovationSoft.Olh.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,768 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhCoreModule, InnovationSoft.Olh.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule, InnovationSoft.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,778 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,779 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,784 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:11,788 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-15 16:50:11,906 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:50:11,907 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:50:11,908 [1    ] o.Configuration.LanguageManagementConfig - Converted Olh (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:50:11,910 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 16:50:12,452 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: InnovationSoft.Olh.EntityFrameworkCore.OlhDbContext, InnovationSoft.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 16:50:13,109 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-15 16:50:13,260 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-15 16:50:13,480 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-15 16:50:13,583 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Olh
+DEBUG 2018-05-15 16:50:13,731 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-15 16:50:13,771 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-15 16:50:13,828 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-15 16:50:13,829 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-15 16:50:13,835 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Users.Dto.CreateUserDto
+DEBUG 2018-05-15 16:50:13,837 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Users.Dto.UserDto
+DEBUG 2018-05-15 16:50:13,838 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-15 16:50:13,839 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-15 16:50:13,839 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-15 16:50:13,840 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.PermissionDto
+DEBUG 2018-05-15 16:50:13,841 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.RoleDto
+DEBUG 2018-05-15 16:50:13,841 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-15 16:50:13,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.MultiTenancy.Dto.TenantDto
+INFO  2018-05-15 16:50:25,730 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-05-15 16:50:26,413 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 698.4879ms 404 
+DEBUG 2018-05-15 17:26:45,791 [31   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-05-15 17:26:45,802 [31   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-15 17:26:45,803 [31   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-15 17:26:45,804 [31   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2018-05-15 17:27:30,657 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-05-15 17:27:30,709 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-05-15 17:27:30,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.Web.Host.Startup.OlhWebHostModule, InnovationSoft.Olh.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhWebCoreModule, InnovationSoft.Olh.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhApplicationModule, InnovationSoft.Olh.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.OlhCoreModule, InnovationSoft.Olh.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,815 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,818 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: InnovationSoft.Olh.EntityFrameworkCore.OlhEntityFrameworkModule, InnovationSoft.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,819 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,820 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,822 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,823 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:30,831 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-05-15 17:27:30,978 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 17:27:30,980 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 17:27:30,981 [1    ] o.Configuration.LanguageManagementConfig - Converted Olh (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 17:27:30,982 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-05-15 17:27:31,783 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: InnovationSoft.Olh.EntityFrameworkCore.OlhDbContext, InnovationSoft.Olh.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-05-15 17:27:32,608 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-05-15 17:27:32,786 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-05-15 17:27:33,086 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-05-15 17:27:33,195 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Olh
+DEBUG 2018-05-15 17:27:33,401 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-05-15 17:27:33,469 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-15 17:27:33,605 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-05-15 17:27:33,615 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-05-15 17:27:33,623 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Users.Dto.CreateUserDto
+DEBUG 2018-05-15 17:27:33,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Users.Dto.UserDto
+DEBUG 2018-05-15 17:27:33,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-05-15 17:27:33,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-05-15 17:27:33,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.CreateRoleDto
+DEBUG 2018-05-15 17:27:33,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.PermissionDto
+DEBUG 2018-05-15 17:27:33,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.Roles.Dto.RoleDto
+DEBUG 2018-05-15 17:27:33,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-05-15 17:27:33,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - InnovationSoft.Olh.MultiTenancy.Dto.TenantDto
+INFO  2018-05-15 17:30:15,831 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-15 17:30:15,903 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:30:15,940 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 116.186ms 204 
+INFO  2018-05-15 17:30:16,134 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-15 17:30:16,134 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:30:16,303 [14   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-15 17:30:18,635 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:30:18,784 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-15 17:30:20,179 [14   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-15 17:30:20,393 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 1755.1002ms
+INFO  2018-05-15 17:30:20,396 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4263.7155ms 200 application/json; charset=utf-8
+INFO  2018-05-15 17:30:21,418 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-15 17:30:21,418 [14   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:30:21,419 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.6288ms 204 
+INFO  2018-05-15 17:30:21,556 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-15 17:30:21,556 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:30:21,606 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:30:21,808 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InnovationSoft.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (InnovationSoft.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-15 17:30:21,838 [15   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 17:30:21,891 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InnovationSoft.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (InnovationSoft.Olh.Application) in 291.0328ms
+INFO  2018-05-15 17:30:21,891 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 335.2977ms 200 application/json; charset=utf-8
+INFO  2018-05-15 17:46:12,726 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-15 17:46:13,387 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 657.6501ms 200 application/json
+INFO  2018-05-15 17:46:13,796 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2018-05-15 17:46:13,802 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.8481ms 404 
+INFO  2018-05-15 17:46:49,890 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-05-15 17:46:49,907 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.4378ms 301 
+INFO  2018-05-15 17:46:49,976 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-05-15 17:46:50,003 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,030 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.2184ms 200 text/html
+INFO  2018-05-15 17:46:50,158 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-05-15 17:46:50,163 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/typography.css'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,167 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.5337ms 200 text/css
+INFO  2018-05-15 17:46:50,169 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-05-15 17:46:50,171 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/reset.css'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,172 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4311ms 200 text/css
+INFO  2018-05-15 17:46:50,172 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-05-15 17:46:50,176 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-05-15 17:46:50,177 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/print.css'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,184 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.0159ms 200 text/css
+INFO  2018-05-15 17:46:50,185 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-05-15 17:46:50,191 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/screen.css'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,194 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,195 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.0708ms 200 application/javascript
+INFO  2018-05-15 17:46:50,195 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.4498ms 200 text/css
+INFO  2018-05-15 17:46:50,196 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-05-15 17:46:50,197 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,199 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.5615ms 200 application/javascript
+INFO  2018-05-15 17:46:50,200 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-05-15 17:46:50,203 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,207 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.6807ms 200 application/javascript
+INFO  2018-05-15 17:46:50,208 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-05-15 17:46:50,211 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,211 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.8764ms 200 application/javascript
+INFO  2018-05-15 17:46:50,211 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-05-15 17:46:50,215 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,215 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.0589ms 200 application/javascript
+INFO  2018-05-15 17:46:50,215 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-05-15 17:46:50,219 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,223 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.0825ms 200 application/javascript
+INFO  2018-05-15 17:46:50,223 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-05-15 17:46:50,226 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,227 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.6409ms 200 application/javascript
+INFO  2018-05-15 17:46:50,227 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-05-15 17:46:50,231 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,232 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.5128ms 200 application/javascript
+INFO  2018-05-15 17:46:50,232 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-05-15 17:46:50,239 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,239 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.595ms 200 application/javascript
+INFO  2018-05-15 17:46:50,241 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-05-15 17:46:50,242 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,247 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.0318ms 200 application/javascript
+INFO  2018-05-15 17:46:50,247 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-05-15 17:46:50,249 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,253 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.7054ms 200 application/javascript
+INFO  2018-05-15 17:46:50,253 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-05-15 17:46:50,254 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,254 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2196ms 200 application/javascript
+INFO  2018-05-15 17:46:50,254 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-05-15 17:46:50,259 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,259 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.7486ms 200 application/javascript
+INFO  2018-05-15 17:46:50,259 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-05-15 17:46:50,263 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,265 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.0925ms 200 application/javascript
+INFO  2018-05-15 17:46:50,266 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-05-15 17:46:50,270 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:50,271 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.5064ms 200 image/png
+INFO  2018-05-15 17:46:51,052 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/favicon-16x16.png  
+INFO  2018-05-15 17:46:51,054 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-05-15 17:46:51,057 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.9295ms 200 image/png
+INFO  2018-05-15 17:46:51,150 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-05-15 17:46:51,187 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.2274ms 200 application/json
+INFO  2018-05-15 17:46:52,484 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1526417212482  
+INFO  2018-05-15 17:46:52,485 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: '/home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.Web.Host/wwwroot/swagger/ui/abp.js'
+INFO  2018-05-15 17:46:52,505 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.7047ms 200 application/javascript
+INFO  2018-05-15 17:46:52,506 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1526417212492  
+INFO  2018-05-15 17:46:52,506 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: '/home/cristhian/Proyectos/Olh/src/InnovationSoft.Olh.Web.Host/wwwroot/swagger/ui/on-complete.js'
+INFO  2018-05-15 17:46:52,507 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0241ms 200 application/javascript
+INFO  2018-05-15 17:51:29,814 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Account/IsTenantAvailable  
+INFO  2018-05-15 17:51:29,814 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:51:29,816 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.523ms 204 
+INFO  2018-05-15 17:51:29,821 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 25
+INFO  2018-05-15 17:51:29,821 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:51:29,894 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:51:30,157 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InnovationSoft.Olh.Authorization.Accounts.AccountAppService.IsTenantAvailable (InnovationSoft.Olh.Application) with arguments (InnovationSoft.Olh.Authorization.Accounts.Dto.IsTenantAvailableInput) - ModelState is Valid
+INFO  2018-05-15 17:51:30,355 [15   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 17:51:30,357 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InnovationSoft.Olh.Authorization.Accounts.AccountAppService.IsTenantAvailable (InnovationSoft.Olh.Application) in 463.1778ms
+INFO  2018-05-15 17:51:30,365 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 544.3263ms 200 application/json; charset=utf-8
+INFO  2018-05-15 17:51:34,936 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-15 17:51:34,937 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:51:34,937 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2172ms 204 
+INFO  2018-05-15 17:51:34,944 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-15 17:51:34,944 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:51:34,949 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-05-15 17:51:35,125 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:51:35,134 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-15 17:51:35,238 [13   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-15 17:51:35,240 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 115.6571ms
+INFO  2018-05-15 17:51:35,241 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 296.4089ms 200 application/json; charset=utf-8
+INFO  2018-05-15 17:51:35,380 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-15 17:51:35,380 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:51:35,380 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2206ms 204 
+INFO  2018-05-15 17:51:35,382 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-15 17:51:35,382 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:51:35,397 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:51:35,412 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InnovationSoft.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (InnovationSoft.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-15 17:51:35,546 [15   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 17:51:35,555 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InnovationSoft.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (InnovationSoft.Olh.Application) in 153.0127ms
+INFO  2018-05-15 17:51:35,555 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 173.677ms 200 application/json; charset=utf-8
+INFO  2018-05-15 17:51:53,866 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-05-15 17:51:53,867 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:51:53,867 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2555ms 204 
+INFO  2018-05-15 17:51:53,883 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2018-05-15 17:51:53,884 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:51:53,916 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:51:54,126 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InnovationSoft.Olh.Controllers.TokenAuthController.Authenticate (InnovationSoft.Olh.Web.Core) with arguments (InnovationSoft.Olh.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-05-15 17:51:55,403 [15   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 17:51:55,408 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InnovationSoft.Olh.Controllers.TokenAuthController.Authenticate (InnovationSoft.Olh.Web.Core) in 1491.8628ms
+INFO  2018-05-15 17:51:55,417 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1531.6185ms 200 application/json; charset=utf-8
+INFO  2018-05-15 17:52:00,563 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-15 17:52:00,564 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:52:00,564 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0627ms 204 
+INFO  2018-05-15 17:52:00,570 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-15 17:52:00,570 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:52:00,583 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-15 17:52:00,599 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-15 17:52:00,919 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:52:00,922 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-15 17:52:01,581 [13   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-15 17:52:01,586 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 684.6097ms
+INFO  2018-05-15 17:52:01,589 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1018.3719ms 200 application/json; charset=utf-8
+INFO  2018-05-15 17:52:02,335 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-15 17:52:02,335 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:52:02,335 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3303ms 204 
+INFO  2018-05-15 17:52:02,338 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-15 17:52:02,338 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:52:02,341 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-15 17:52:02,341 [15   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-15 17:52:02,361 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:52:02,376 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InnovationSoft.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (InnovationSoft.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-15 17:52:02,418 [15   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 17:52:02,426 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InnovationSoft.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (InnovationSoft.Olh.Application) in 68.9558ms
+INFO  2018-05-15 17:52:02,428 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 88.9877ms 200 application/json; charset=utf-8
+INFO  2018-05-15 17:52:07,470 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FRkp3UZ8A1gKoReYXpvXHc0KFXzGY3aUxaXUOjpNPSTn4LyfFvWqGRq42yefBXGrkBTbBN3h9UXPP%2B25Rfae1rBCQrd8mQ0G3JHpGlVZBMKMD5RSIjWMCe3sPKe05J4ZS4x7ipM9FJHtoJ0Ev%2FfvM08rDbeioKKXNqOF9YqzdChxSnpsH4gsiia6e%2BSRx0RP0sT9zE03eNi%2FSbYiZisj3KoLu%2FwXNf7PWssknZ48vTu6iqxK5TYXAlWCO4vdxa8g6LJKsrRquVQvenVGee1V4pag4XoBqcMGbku7qAuvYep7OhFvirnvuhI9YxDNLFRf8Ivct5mru65winehrwQ1RvvZ%2BboTGTNpkQR2n5ABAlirN5Rcf3foVPlRBcbfceSUyf0d%2BfpQjFfbBJyEDZ3Swl4kh4KuCyDlXDJngKzpCs3APjF%2FL23oTUGwxs93llUodevre7Fwm8NKghU3E2eyLSsdTmDbuN4TrsxorPlK0hIxHKLvZdzxF7dMl2Ieb8Zaigc6UZWLjaUqTZZT2neuuB4jCnExkgzr%2FPNoL6rMRWgS9FkaWyOX44skW8FskUjuFL0w1R%2BxfXqlDGbu%2FDtdfwhnHqkjFITyKUKqE2bnm4n9BZiL%2B%2BKVGDuVu7SwpkSpuROHtKVYlgXvQCNGNGHEzmcKtGRy5bLGrhmoXOWXzbDYcZ1DAzPtnT82myc6XZVIvWRXBnUFAb0WMRAYQXzUtE8N0GgZxJsvjUT%2FMTidA0FhMH%2F%2B%2Bx55Js7vaIS5tpR550k%2F4SUUFKi0K9pygudQi9hLfKsS34yRMl3I2IEkAKS1g%3D%3D  
+INFO  2018-05-15 17:52:07,473 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:52:07,494 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-15 17:52:07,494 [15   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-15 17:52:07,853 [15   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-15 17:52:08,099 [13   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-15 17:52:08,213 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"34b5ea99-50e9-4e00-ba82-aac8ccdb5963","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2018-05-15T17:52:08.1926731-03:00","Properties":{}}
+DEBUG 2018-05-15 17:52:08,335 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 34b5ea99-50e9-4e00-ba82-aac8ccdb5963
+INFO  2018-05-15 17:58:27,466 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/ChangeLanguage  
+INFO  2018-05-15 17:58:27,474 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:58:27,478 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.8981ms 204 
+INFO  2018-05-15 17:58:27,486 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/ChangeLanguage application/json 24
+INFO  2018-05-15 17:58:27,487 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:58:27,511 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-15 17:58:27,511 [13   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-15 17:58:27,569 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:58:27,729 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InnovationSoft.Olh.Users.UserAppService.ChangeLanguage (InnovationSoft.Olh.Application) with arguments (InnovationSoft.Olh.Users.Dto.ChangeUserLanguageDto) - ModelState is Valid
+INFO  2018-05-15 17:58:27,860 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 17:58:27,863 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InnovationSoft.Olh.Users.UserAppService.ChangeLanguage (InnovationSoft.Olh.Application) in 291.499ms
+INFO  2018-05-15 17:58:27,863 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 377.1144ms 200 application/json; charset=utf-8
+DEBUG 2018-05-15 17:58:28,001 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 34b5ea99-50e9-4e00-ba82-aac8ccdb5963
+INFO  2018-05-15 17:58:28,036 [15   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-15 17:58:28,047 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 380577.2865ms 101 
+INFO  2018-05-15 17:58:32,023 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-05-15 17:58:32,023 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:58:32,023 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2519ms 204 
+INFO  2018-05-15 17:58:32,032 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-05-15 17:58:32,032 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:58:32,033 [16   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-15 17:58:32,033 [16   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-15 17:58:32,070 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:58:32,073 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-15 17:58:32,153 [16   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-05-15 17:58:32,153 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 106.5667ms
+INFO  2018-05-15 17:58:32,155 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 121.5645ms 200 application/json; charset=utf-8
+INFO  2018-05-15 17:58:32,271 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-05-15 17:58:32,271 [16   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:58:32,272 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4015ms 204 
+INFO  2018-05-15 17:58:32,280 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-05-15 17:58:32,280 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:58:32,280 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-15 17:58:32,281 [15   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-15 17:58:32,299 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:58:32,310 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method InnovationSoft.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (InnovationSoft.Olh.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-05-15 17:58:32,328 [15   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-05-15 17:58:32,340 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action InnovationSoft.Olh.Sessions.SessionAppService.GetCurrentLoginInformations (InnovationSoft.Olh.Application) in 44.4285ms
+INFO  2018-05-15 17:58:32,344 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 60.3461ms 200 application/json; charset=utf-8
+INFO  2018-05-15 17:58:35,344 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FRkp3UZ8A1gKoReYXpvXHc0KFXzGY3aUxaXUOjpNPSTn4LyfFvWqGRq42yefBXGrkBTbBN3h9UXPP%2B25Rfae1rBCQrd8mQ0G3JHpGlVZBMKMD5RSIjWMCe3sPKe05J4ZS4x7ipM9FJHtoJ0Ev%2FfvM08rDbeioKKXNqOF9YqzdChxSnpsH4gsiia6e%2BSRx0RP0sT9zE03eNi%2FSbYiZisj3KoLu%2FwXNf7PWssknZ48vTu6iqxK5TYXAlWCO4vdxa8g6LJKsrRquVQvenVGee1V4pag4XoBqcMGbku7qAuvYep7OhFvirnvuhI9YxDNLFRf8Ivct5mru65winehrwQ1RvvZ%2BboTGTNpkQR2n5ABAlirN5Rcf3foVPlRBcbfceSUyf0d%2BfpQjFfbBJyEDZ3Swl4kh4KuCyDlXDJngKzpCs3APjF%2FL23oTUGwxs93llUodevre7Fwm8NKghU3E2eyLSsdTmDbuN4TrsxorPlK0hIxHKLvZdzxF7dMl2Ieb8Zaigc6UZWLjaUqTZZT2neuuB4jCnExkgzr%2FPNoL6rMRWgS9FkaWyOX44skW8FskUjuFL0w1R%2BxfXqlDGbu%2FDtdfwhnHqkjFITyKUKqE2bnm4n9BZiL%2B%2BKVGDuVu7SwpkSpuROHtKVYlgXvQCNGNGHEzmcKtGRy5bLGrhmoXOWXzbDYcZ1DAzPtnT82myc6XZVIvWRXBnUFAb0WMRAYQXzUtE8N0GgZxJsvjUT%2FMTidA0FhMH%2F%2B%2Bx55Js7vaIS5tpR550k%2F4SUUFKi0K9pygudQi9hLfKsS34yRMl3I2IEkAKS1g%3D%3D  
+INFO  2018-05-15 17:58:35,345 [15   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-05-15 17:58:35,352 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-05-15 17:58:35,352 [15   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-05-15 17:58:35,358 [15   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-15 17:58:35,543 [16   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-15 17:58:35,558 [16   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"d13bb2f8-67aa-4a23-b420-50a58f1216ec","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2018-05-15T17:58:35.5454774-03:00","Properties":{}}
+DEBUG 2018-05-15 17:58:35,564 [16   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: d13bb2f8-67aa-4a23-b420-50a58f1216ec
+DEBUG 2018-05-15 17:58:44,612 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: d13bb2f8-67aa-4a23-b420-50a58f1216ec
+INFO  2018-05-15 17:58:44,615 [16   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-15 17:58:44,617 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9272.5043ms 101 
+DEBUG 2018-05-15 17:58:57,412 [13   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-05-15 17:58:57,414 [13   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-15 17:58:57,422 [13   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-05-15 17:58:57,422 [13   ] Abp.Modules.AbpModuleManager             - Shutting down completed.

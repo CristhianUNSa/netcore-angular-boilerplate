@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/src/InnovationSoft.Olh.Migrator/InnovationSoft.Olh.Migrator.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
